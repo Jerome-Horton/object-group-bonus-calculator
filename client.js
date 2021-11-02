@@ -39,4 +39,49 @@ const employees = [
 // This is not a race. Everyone on your team should understand what is happening.
 // Ask questions when you don't.
 
-console.log( employees );
+// declared function that takes in one **Employee**
+// object (as an argument to the function), and returns a new **object**
+
+for ( let aEmployee of employees ){
+  getEmployeeBonus(aEmployee);
+  console.log(getEmployeeBonus(aEmployee));
+}
+
+ function getEmployeeBonus(aEmployee){  
+  //create a new object
+   let employeeCompensation = {
+    name: aEmployee.name,
+    bonusPercentage: bonusPercentage
+    // totalCompensation:
+    // totalBonus:
+  } 
+
+  let bonusPercentage = {
+    if (aEmployee.reviewRating < 3){
+      return 'no bonus'
+    }
+  }
+
+  return employeeCompensation;
+}
+
+
+
+
+//   employeeCompensation.employees.name;
+//   employeeCompensation.employees.employeeNumber;
+//   employeeCompensation.employees.annualSalary;
+//   employeeCompensation.employees.reviewRating;
+// }; 
+
+  
+//   return aEmployee;
+//  }
+
+
+ 
+// console.log(getEmployeeBonus(employees));
+
+//Jerome and Yasir worked on this
+
+
